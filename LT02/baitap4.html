@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="in">
+<button onclick="check()">check</button>
+<script>
+    function check(){
+        let a = document.getElementById('in').value
+        if(isNaN(a)){
+            alert('false')
+        }else {
+            alert('true')
+        }
+    }
+</script>
+</body>
+</html>
